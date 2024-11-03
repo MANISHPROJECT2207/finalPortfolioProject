@@ -1,0 +1,80 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #7e40f6;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(
+      to right,
+      rgba(126, 64, 246, 1),
+      rgba(80, 139, 252, 1)
+    );
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(
+      to right,
+      rgba(126, 64, 246, 1),
+      rgba(80, 139, 252, 1)
+    );
+  }
+  
+  .mask-custom {
+    background: rgba(24, 24, 16, 0.2);
+    border-radius: 2em;
+    backdrop-filter: blur(25px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  }
+
+
+
+/* codepen add skills
+   */
+
+   .place{
+    background-color: #fff;
+    margin: 10px auto;
+    width:50%;
+    padding: 15px;
+}
+.add{
+    padding: 50px 0;
+    text-align: center;
+}
+.add input{
+    padding: 5px 0px;
+    -webkit-appearance: none;
+    border: none;
+    border-bottom: 1px solid rgba(33, 33, 33, 0.38);
+    outline: none;
+    width: 75%;
+    transition: all .3s ease-in-out;
+}
+.add input:focus{
+    border: none;
+    border-bottom: 1px solid #212121;
+}
+.add button{
+  -webkit-appearance: none;
+    border: none;
+    outline: none;
+    background-color: #212121;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.items span{
+    font-size: 16px;
+    background-color: #212121;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.items i{
+    margin-left: 5px;
+    cursor: pointer;
+}
